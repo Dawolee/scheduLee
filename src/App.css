@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Vjkyj2hBg/sand-clock-flat-shape-animation-on-blue-background-old-time_bt4kfp1q__F0005.png');
+  padding: 6%;
+  height: auto;
+  color: white;
+  width: 100%;
+}
+
+.inside-banner {
+  margin: 5% auto 5% auto;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-card {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
