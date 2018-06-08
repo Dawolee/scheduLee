@@ -32,6 +32,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 5%;
 }
 
 .single-card {
@@ -43,4 +44,38 @@
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+.get-started {
+  display: flex;
+  justify-content: center;
+  margin: 5% auto 5% auto;
+}
+
+.footer {
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-msg {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.github {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-quote {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
