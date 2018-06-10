@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 import { Button, Card, Image } from 'semantic-ui-react'
 
 import Footer from './Footer'
@@ -22,9 +23,13 @@ class Homepage extends Component {
               <h1 className="larger-font">Scheduling Made Easy</h1>
               <p>Making remembering tasks and hobbies 'simplee' easy!</p>
               <div className="login-signup">
-                <Button primary>Sign Up Now</Button>
+                <NavLink to="/signup">
+                  <Button primary>Sign Up Now</Button>
+                </NavLink>
                 <span>or</span>
-                <Button secondary>Login</Button>
+                <NavLink to="/login">
+                  <Button secondary>Login</Button>
+                </NavLink>
               </div>
             </div>
           </div>
