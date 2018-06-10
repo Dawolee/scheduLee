@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import Signup from './Signup'
-import { loginUser, signupUser } from './store/auth'
+import { signupUser } from './store/auth'
 
 const mapState = state => {
   return {
@@ -10,11 +10,8 @@ const mapState = state => {
 
 const mapDispatch = dispatch => {
   return {
-    login: () => {
-      dispatch(loginUser())
-    },
-    signup: () => {
-      dispatch(signupUser())
+    signup: user => {
+      dispatch(signupUser(user))
     }
   }
 }

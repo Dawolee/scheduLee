@@ -10,7 +10,8 @@ export default class Signup extends Component {
       .auth()
       .createUserWithEmailAndPassword(email, password)
       .then(() => {
-        this.props.signup()
+        let user = fire.auth().currentUser
+        this.props.signup(user)
         this.props.history.push('/')
       })
       .catch(function(error) {
